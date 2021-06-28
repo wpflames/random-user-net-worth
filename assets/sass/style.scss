@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+.container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 40px;
+}
+
+aside {
+  button {
+    display: block;
+    width: 100%;
+  }
+}
+
+main {
+  h2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h2 {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .person {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
